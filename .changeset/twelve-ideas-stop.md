@@ -2,4 +2,4 @@
 "better-source": patch
 ---
 
-add secret in options
+add secret in options!
