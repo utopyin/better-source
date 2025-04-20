@@ -2,12 +2,24 @@
 	"name": "better-source",
 	"description": "1 API for all data sources",
 	"version": "0.0.1",
-	"main": "dist/index.cjs",
-	"module": "dist/index.mjs",
+	"keywords": [
+		"provider",
+		"oauth",
+		"api",
+		"source",
+		"better-source",
+		"connectors",
+		"rag",
+		"agentic",
+		"ai"
+	],
 	"type": "module",
 	"license": "MIT",
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
 	"scripts": {
-		"build": "tsup src/index.ts"
+		"build": "tsup src/index.ts",
+		"release": "changeset publish"
 	},
 	"repository": {
 		"type": "git",
@@ -15,6 +27,7 @@
 		"directory": "packages/better-source"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.29.2",
 		"@types/bun": "latest",
 		"tsup": "^8.4.0"
 	},

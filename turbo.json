@@ -7,11 +7,14 @@
 		},
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["dist/**", ".next/*"],
-			"env": []
+			"outputs": ["dist/**", ".next/*"]
 		},
 		"clean": {},
 		"format": {},
-		"lint": {}
+		"lint": {},
+		"release": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**", ".next/*"]
+		}
 	}
 }
