@@ -8,10 +8,11 @@
 		"format": "biome format . --write",
 		"lint": "biome check .",
 		"lint:fix": "biome check . --write",
-		"release": "turbo --filter \"./packages/*\" build && turbo --filter \"./packages/*\" release"
+		"release": "turbo --filter \"./packages/*\" build && changeset publish"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@changesets/cli": "^2.29.2",
 		"turbo": "^2.5.0",
 		"typescript": "5.8.2"
 	},

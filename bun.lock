@@ -5,6 +5,7 @@
       "name": "better-source",
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
+        "@changesets/cli": "^2.29.2",
         "turbo": "^2.5.0",
         "typescript": "5.8.2",
       },
@@ -23,7 +24,6 @@
       "name": "better-source",
       "version": "0.0.1",
       "devDependencies": {
-        "@changesets/cli": "^2.29.2",
         "@types/bun": "latest",
         "tsup": "^8.4.0",
       },
