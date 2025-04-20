@@ -7,7 +7,7 @@
 		"clean": "turbo --filter \"./packages/*\" clean && rm -rf node_modules",
 		"format": "biome format . --write",
 		"lint": "biome check .",
-		"lint:fix": "biome check . --apply",
+		"lint:fix": "biome check . --write",
 		"release": "turbo --filter \"./packages/*\" build && turbo --filter \"./packages/*\" release"
 	},
 	"devDependencies": {
