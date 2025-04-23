@@ -1,7 +1,7 @@
 {
-	"name": "better-source",
+	"name": "@utopy/better-source",
 	"description": "1 API for all data sources",
-	"version": "0.0.2",
+	"version": "0.0.1",
 	"keywords": [
 		"provider",
 		"oauth",
@@ -23,10 +23,7 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/utopyin/better-source",
-		"directory": "packages/better-source"
-	},
-	"dependencies": {
-		"@utopy/better-source": "workspace:*"
+		"directory": "packages/@better-source"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",

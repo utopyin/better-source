@@ -20,9 +20,23 @@
         "@types/bun": "latest",
       },
     },
+    "packages/@better-source": {
+      "name": "@utopy/better-source",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+        "tsup": "^8.4.0",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
     "packages/better-source": {
       "name": "better-source",
-      "version": "0.0.1",
+      "version": "0.0.2",
+      "dependencies": {
+        "@utopy/better-source": "workspace:*",
+      },
       "devDependencies": {
         "@types/bun": "latest",
         "tsup": "^8.4.0",
@@ -206,6 +220,8 @@
     "@types/estree": ["@types/estree@1.0.7", "", {}, "sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ=="],
 
     "@types/node": ["@types/node@22.14.1", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw=="],
+
+    "@utopy/better-source": ["@utopy/better-source@workspace:packages/@better-source"],
 
     "ansi-colors": ["ansi-colors@4.1.3", "", {}, "sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw=="],
 

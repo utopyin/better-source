@@ -1,17 +1,18 @@
-type Options = {
-	key: string;
-	secret: string;
-	token: string;
-	refreshToken: string;
-};
+export * from "@utopy/better-source";
+// type Options = {
+// 	key: string;
+// 	secret: string;
+// 	token: string;
+// 	refreshToken: string;
+// };
 
-export const betterSource = (options: Options) => {
-	const { key, secret, token, refreshToken } = options;
+// export const betterSource = (options: Options) => {
+// 	const { key, secret, token, refreshToken } = options;
 
-	return {
-		key,
-		secret,
-		token,
-		refreshToken,
-	};
-};
+// 	return {
+// 		key,
+// 		secret,
+// 		token,
+// 		refreshToken,
+// 	};
+// };
