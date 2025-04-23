@@ -1,7 +1,7 @@
 {
 	"name": "better-source",
 	"description": "1 API for all data sources",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"keywords": [
 		"provider",
 		"oauth",

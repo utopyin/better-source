@@ -1,5 +1,11 @@
 # better-source
 
+## 0.0.3
+
+### Patch Changes
+
+- d5aff9d: add refreshToken in options
+
 ## 0.0.2
 
 ### Patch Changes
